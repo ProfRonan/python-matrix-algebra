@@ -1,0 +1,5 @@
+{
+  "python.testing.unittestArgs": ["-v", "-s", "./test", "-p", "test*.py"],
+  "python.testing.unittestEnabled": true,
+  "pylint.args": ["--disable", "non-ascii-name", "non-ascii-module-import"]
+}
