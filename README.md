@@ -1,14 +1,15 @@
-# Python Exercise Template
+# Biblioteca de Manipulação de Matrizes
 
-O script principal de vocês deve estar no arquivo `main.py`.
+Implemente as funções dos módulos `matrix.py` e `vector.py`.
 
-## 📝 Instruções 📝
+## 📖 Referências 📖
 
-TODO: Add instructions
+- [Vetores](<https://pt.wikipedia.org/wiki/Vetor_(matem%C3%A1tica)>)
+- [Produto Escalar](https://pt.wikipedia.org/wiki/Produto_escalar)
+- [Produto Vetorial](https://pt.wikipedia.org/wiki/Produto_vetorial)
+- [Produto Diádico](https://pt.wikipedia.org/wiki/Produto_di%C3%A1dico)
 
-## 🧑‍💻 Exemplo de Execução 🧑‍💻
-
-TODO: Add example
+- [Matrizes](<https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica)>)
 
 ## ❗ IMPORTANTE ❗
 
