@@ -8,7 +8,6 @@ Implemente as funções dos módulos `matrix.py` e `vector.py`.
 - [Produto Escalar](https://pt.wikipedia.org/wiki/Produto_escalar)
 - [Produto Vetorial](https://pt.wikipedia.org/wiki/Produto_vetorial)
 - [Produto Diádico](https://pt.wikipedia.org/wiki/Produto_di%C3%A1dico)
-
 - [Matrizes](<https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica)>)
 
 ## ❗ IMPORTANTE ❗
