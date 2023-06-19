@@ -6,7 +6,7 @@ from tipos import Vetor
 from vector import produto_diadico as prod
 
 
-class TestVectorProdutodiadico(unittest.TestCase):
+class TestVectorProdutoDiadico(unittest.TestCase):
     """Classer para testar a função produto_diádico no arquivo vector.py"""
 
     def test_produto_diadico_vazio(self):

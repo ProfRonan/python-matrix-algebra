@@ -6,7 +6,7 @@ from matrix import multiplicacao as multi
 from tipos import Matriz
 
 
-class TestMatrixmultiplicacao(unittest.TestCase):
+class TestMatrixMultiplicacao(unittest.TestCase):
     """Classe para testar a função multiplicação no arquivo matrix.py"""
 
     def test_multiplicacao_vazia(self):
