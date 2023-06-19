@@ -12,7 +12,7 @@ def soma(x: Matriz, y: Matriz) -> Matriz | None:
     raise NotImplementedError
 
 
-def multiplicação_por_escalar(matriz: Matriz, escalar: Escalar) -> Matriz:
+def multiplicacao_por_escalar(matriz: Matriz, escalar: Escalar) -> Matriz:
     """Multiplica uma matriz por um escalar"""
     # TODO: implementar
     # a multiplicação de uma matriz [[1, 2, 4], [2, 3, 4]]
@@ -20,7 +20,7 @@ def multiplicação_por_escalar(matriz: Matriz, escalar: Escalar) -> Matriz:
     raise NotImplementedError
 
 
-def multiplicação(x: Matriz, y: Matriz) -> Matriz | None:
+def multiplicacao(x: Matriz, y: Matriz) -> Matriz | None:
     """Multiplica duas matrizes"""
     # TODO: implementar
     # a multiplicação de duas matrizes [[1, 2, 4], [2, 3, 4]]
@@ -42,7 +42,7 @@ def norma(x: Matriz) -> Escalar:
     raise NotImplementedError
 
 
-def é_simétrica(x: Matriz) -> bool:
+def eh_simetrica(x: Matriz) -> bool:
     """Verifica se uma matriz é simétrica"""
     # TODO: implementar
     # uma matriz é simétrica se ela é quadrada e se ela é igual a sua transposta

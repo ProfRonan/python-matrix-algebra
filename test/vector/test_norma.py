@@ -1,6 +1,7 @@
 """Esse arquivo testa o arquivo vector.py"""
 
 import unittest
+
 from tipos import Vetor
 from vector import norma
 

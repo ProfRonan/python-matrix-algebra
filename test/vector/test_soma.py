@@ -1,8 +1,9 @@
 """Esse arquivo testa o arquivo vector.py"""
 
 import unittest  # para criar o caso de teste
-from vector import soma
+
 from tipos import Vetor
+from vector import soma
 
 
 class TestVectorSoma(unittest.TestCase):
@@ -12,7 +13,7 @@ class TestVectorSoma(unittest.TestCase):
         """Testa se a resposta é vazia para vetores vazios"""
         self.assertEqual(soma([], []), [])
 
-    def test_soma_incompatível(self):
+    def test_soma_incompativel(self):
         """Testa se a soma de vetores incompatíveis é None"""
         x: Vetor = [1, 2]
         y: Vetor = [1, 2, 3]
@@ -46,4 +47,6 @@ class TestVectorSoma(unittest.TestCase):
         """Testa se a soma é comutativa"""
         x: Vetor = [1, 2, 3, 4]
         y: Vetor = [4, 3, 2, 1]
-        self.assertEqual(soma(x, y), soma(y, x))
+        self.assertEqual(
+            soma(x, y), soma(y, x)  # pylint: disable=arguments-out-of-order
+        )

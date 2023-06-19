@@ -1,6 +1,7 @@
 """Esse arquivo testa o arquivo matrix.py"""
 
 import unittest
+
 from matrix import norma
 from tipos import Matriz
 
@@ -20,7 +21,10 @@ class TestMatrixNorma(unittest.TestCase):
         self.assertEqual(norma(y), 1)
 
     def test_norma_2x2(self):
-        """Testa se a norma da matriz [[1, 2], [2, 3]] é 4.2426406871193 e da matriz [[-1, 2], [2, -3]] é 4.2426406871193"""
+        """
+        Testa se a norma da matriz [[1, 2], [2, 3]] é 4.2426406871193
+        e da matriz [[-1, 2], [2, -3]] é 4.2426406871193
+        """
         x: Matriz = [[1, 2], [2, 3]]
         self.assertAlmostEqual(norma(x), 4.2426406871193, delta=0.01)
         y: Matriz = [[-1, 2], [2, -3]]

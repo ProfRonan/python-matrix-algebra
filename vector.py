@@ -21,7 +21,7 @@ def soma(x: Vetor, y: Vetor) -> Vetor | None:
     raise NotImplementedError
 
 
-def multiplicação_por_escalar(vetor: Vetor, escalar: Escalar) -> Vetor:
+def multiplicacao_por_escalar(vetor: Vetor, escalar: Escalar) -> Vetor:
     """Multiplica um vetor por um escalar"""
     # TODO: implementar
     # a multiplicação de um vetor [1, 2, 4] por um escalar 2 é [2, 4, 8]
@@ -50,7 +50,7 @@ def produto_vetorial(x: Vetor, y: Vetor) -> Vetor | None:
     raise NotImplementedError
 
 
-def produto_diádico(x: Vetor, y: Vetor) -> list[Vetor] | None:
+def produto_diadico(x: Vetor, y: Vetor) -> list[Vetor] | None:
     """Calcula o produto diádico de dois vetores"""
     # TODO: implementar
     # o produto diádico de dois vetores [1, 2, 4] e [2, 3, 4] é [[2, 3, 4], [4, 6, 8],

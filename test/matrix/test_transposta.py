@@ -1,6 +1,7 @@
 """Esse arquivo testa o arquivo matrix.py"""
 
 import unittest  # for creating the test case
+
 from matrix import transposta
 from tipos import Matriz
 

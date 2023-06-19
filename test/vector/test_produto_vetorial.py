@@ -1,6 +1,7 @@
 """Esse arquivo testa o arquivo vector.py"""
 
 import unittest  # para criar o caso de teste
+
 from tipos import Vetor
 from vector import produto_vetorial as prod_vet
 
@@ -12,7 +13,7 @@ class TestVectorProdutoVetorial(unittest.TestCase):
         """Testa se a resposta é None para vetores vazios"""
         self.assertEqual(prod_vet([], []), None)
 
-    def test_produto_vetorial_incompatível(self):
+    def test_produto_vetorial_incompativel(self):
         """Testa se a resposta é None para vetores incompatíveis"""
         x: Vetor = [1, 2]
         y: Vetor = [1, 2, 3]

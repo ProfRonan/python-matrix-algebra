@@ -1,6 +1,7 @@
 """Esse arquivo testa o arquivo vector.py"""
 
 import unittest
+
 from tipos import Vetor
 from vector import produto_interno as pi
 
@@ -12,7 +13,7 @@ class TestVectorProdutoInterno(unittest.TestCase):
         """Testa se a resposta é 0 para vetores vazios"""
         self.assertEqual(pi([], []), 0)
 
-    def test_produto_interno_incompatível(self):
+    def test_produto_interno_incompativel(self):
         """Testa se a resposta é None para vetores de tamanhos diferentes"""
         self.assertEqual(pi([1, 2], [1]), None)
 
